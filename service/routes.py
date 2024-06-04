@@ -13,7 +13,7 @@ COUNTER = {}
 ############################################################
 @app.route("/health")
 def health():
-    """Health Status"""
+    """Health Status."""
     return jsonify(dict(status="OK")), status.HTTP_200_OK
 
 
